@@ -1,0 +1,22 @@
+.form-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.name-field {
+  width: 47%;
+}
+.num-type {
+  width: 20%;
+}
+.number {
+  width: 50%;
+  margin-bottom: 0;
+}
+.delete-icon{
+   background: antiquewhite ;
+}
+.edit-icon{
+   background: darkseagreen ;
+}

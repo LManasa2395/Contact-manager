@@ -1,0 +1,18 @@
+.paper {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #fafafa;
+}
+.app-bar{
+   height: 64px;
+}
+.tool-bar{
+  margin: 0 auto; 
+  max-width: 900px;
+}
+.contacts-list{
+   margin: 30px auto; 
+   max-width: 900px; 
+   text-align: center;
+}
