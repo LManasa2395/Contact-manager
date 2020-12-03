@@ -11,10 +11,11 @@ function useLocalStorageReducer(key, defaultVal, reducer) {
     }
     return val;
   });
-  useEffect(() => {
+  const effectMethod = () => {
     state.searchedContacts = state.contacts.slice();
     ls.set(key, state);
-  }, []);
+  };
+  useEffect(effectMethod, []);
   useEffect(() => {
     ls.set(key, state);
   }, [state, key]);
